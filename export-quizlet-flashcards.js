@@ -2,6 +2,9 @@
  * ╔══════════════════════════════════════════════════════════╗
  * ║          QUIZLET CLONE PRO — Nâng cấp toàn diện         ║
  * ║  Tính năng: Multi-format | Preview | Dedup | Progress   ║
+ * ╠══════════════════════════════════════════════════════════╣
+ * ║  © Script được phát triển bởi                           ║
+ * ║     Nguyễn Tiến Việt Hoàng                              ║
  * ╚══════════════════════════════════════════════════════════╝
  *
  * CÁCH DÙNG:
@@ -304,6 +307,10 @@
       <button id="qz-btn-copy" title="Copy vào clipboard">📋</button>
       <button id="qz-btn-close">✕</button>
     </div>
+
+    <div style="margin-top:14px;padding-top:10px;border-top:1px solid #f0f0f0;text-align:center;font-size:11px;color:#bbb;letter-spacing:.3px">
+      © Script được phát triển bởi <strong style="color:#999;font-weight:600">Nguyễn Tiến Việt Hoàng</strong>
+    </div>
   `;
 
   if (dupCount > 0) document.getElementById('qz-dup-badge').style.display = 'inline-block';
@@ -364,7 +371,8 @@
   });
 
   // ─── DONE ─────────────────────────────────────────────────────
-  console.log(`%c✅ Quizlet Clone Pro sẵn sàng — ${result.length} thẻ`, 'color:#4255ff;font-weight:bold');
+  console.log(`%c✅ Quizlet Clone Pro sẵn sàng — ${result.length} thẻ`, 'color:#4255ff;font-weight:bold;font-size:14px');
+  console.log(`%c© Script được phát triển bởi Nguyễn Tiến Việt Hoàng`, 'color:#888;font-size:11px;font-style:italic');
   if (!result.length) {
     alert('⚠️ Không tìm thấy flashcard nào!\n\nHãy chắc chắn bạn đang ở trang /flashcards của một bộ thẻ Quizlet.');
   }
