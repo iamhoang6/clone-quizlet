@@ -1,4 +1,4 @@
-# ⚡ Quizlet Clone Pro
+# ⚡ Quizlet Clone
 
 Một script JavaScript chạy trực tiếp trong DevTools Console giúp bạn trích xuất flashcards từ Quizlet và xuất ra nhiều định dạng khác nhau: **TXT, CSV, JSON, Anki TXT, Markdown**.
 
@@ -141,33 +141,3 @@ Script gồm các phần chính:
 - Không dùng script để sao chép, chia sẻ hoặc phân phối nội dung mà bạn không có quyền sử dụng.
 
 ---
-
-## 🗂 Cấu trúc repo
-
-```txt
-quizlet-flashcards-exporter/
-├── src/
-│   └── export-quizlet-flashcards.js
-├── examples/
-│   └── sample-output.txt
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
----
-
-## 🛠 Ý tưởng phát triển tiếp
-
-- Đóng gói thành Chrome Extension
-- Thêm nút chọn đảo chiều thuật ngữ/định nghĩa
-- Thêm export `.apkg` cho Anki
-- Thêm dark mode cho preview UI
-- Thêm tự động phát hiện ngôn ngữ
-- Thêm tùy chọn giữ/xóa HTML formatting
-
----
-
-## 📄 License
-
-MIT License. Bạn có thể sử dụng, chỉnh sửa và chia sẻ lại script này.
