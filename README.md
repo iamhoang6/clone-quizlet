@@ -45,7 +45,7 @@ Trên Chrome, Edge hoặc trình duyệt Chromium:
 Mở file:
 
 ```txt
-src/export-quizlet-flashcards.js
+export-quizlet-flashcards.js
 ```
 
 Copy toàn bộ nội dung file, dán vào Console rồi nhấn `Enter`.
